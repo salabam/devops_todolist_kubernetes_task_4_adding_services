@@ -10,7 +10,7 @@
 
 ## Testing ToDo Application Using Port-Forward
 
-   kubectl port-forward pod/todoapp-pod -n todoapp 8080:8080
+   kubectl port-forward pod/todoapp -n todoapp 8080:8080
    Open your browser and navigate to: http://localhost:8080
 
 ## Testing the Application Using BusyBox Container
