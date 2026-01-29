@@ -16,3 +16,8 @@
 ## Testing the Application Using BusyBox Container
 
    kubectl exec -it busybox -n todoapp -- curl -X GET http://todoapp-service
+
+
+## Testing ToDo Application via NodePort
+
+    Open your browser and navigate to: http://localhost:30007
